@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "justchat"
+version = "0.1.0"
+description = ""
+authors = ["dedoxd2 <dedo.xd33@yahoo.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.1"
+python-decouple = "^3.8"
+django-channels = "^0.7.0"
+channels = {extras = ["daphne"], version = "^4.0.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
