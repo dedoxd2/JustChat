@@ -11,6 +11,7 @@ django = "^5.0.1"
 python-decouple = "^3.8"
 django-channels = "^0.7.0"
 channels = {extras = ["daphne"], version = "^4.0.0"}
+channels-redis = "4.1"
 
 
 [build-system]
