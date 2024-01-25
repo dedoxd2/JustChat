@@ -12,6 +12,7 @@ python-decouple = "^3.8"
 django-channels = "^0.7.0"
 channels = {extras = ["daphne"], version = "^4.0.0"}
 channels-redis = "4.1"
+selenium = "^4.17.2"
 
 
 [build-system]
